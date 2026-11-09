@@ -7,150 +7,114 @@
 <p align="center">
   <strong>A Premium 3D Gesture Learning & Recognition Studio</strong>
   <br />
-  Turn natural hand movements into a programmable language.
+  <sub>Redefining how humans interact with intelligent environments.</sub>
   <br /><br />
   <a href="https://www.youtube.com/watch?v=6DZNtQNQqWQ">
-    <img src="https://img.shields.io/badge/▶_WATCH_PROJECT_DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo" />
+    <img src="https://img.shields.io/badge/WATCH_PROJECT_DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Demo" />
   </a>
-  <img src="https://img.shields.io/badge/Computer_Vision-MediaPipe-blue?style=for-the-badge" alt="Computer Vision" />
-  <img src="https://img.shields.io/badge/3D-Three.js-black?style=for-the-badge&logo=threedotjs" alt="Three.js" />
-  <img src="https://img.shields.io/badge/Privacy-Local--First-success?style=for-the-badge" alt="Local First" />
-  <img src="https://img.shields.io/badge/TypeScript-Powered-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/COMPUTER_VISION-MEDIAPIPE-blue?style=for-the-badge" alt="MediaPipe" />
+  <img src="https://img.shields.io/badge/3D-THREE.JS-black?style=for-the-badge&logo=threedotjs" alt="Three.js" />
+  <img src="https://img.shields.io/badge/ENGINEERING-TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/ARCHITECTURE-LOCAL_FIRST-success?style=for-the-badge" alt="Local First" />
 </p>
 
 ---
 
-## The Next Interface Is Human.
+## THE NEXT INTERFACE IS HUMAN.
 
 What if your hand could become your own programmable interface?
 
-**NEUROHAND** explores a different approach to Human-Computer Interaction (HCI), where users are not limited to predefined commands. Instead, they can capture their own hand gestures, give them meaning, teach the system, and have those gestures recognized in real time.
+**NEUROHAND** is a premium 3D Gesture Learning & Recognition Studio exploring a new approach to Human-Computer Interaction (HCI).
 
-Built around computer vision, procedural 3D modeling, hand kinematics, and instance-based recognition algorithms, NEUROHAND transforms natural movements into a personal gesture vocabulary.
+Instead of relying exclusively on predefined commands, NEUROHAND allows users to capture their own hand movements, create custom gestures, assign meaning to them, and teach a recognition system to understand their personal gesture vocabulary.
 
-This is more than hand tracking.
+By combining real-time computer vision, procedural 3D modeling, hand kinematics, mathematical feature extraction, and gesture recognition algorithms, NEUROHAND transforms natural human movement into an interactive language.
 
-It is an interactive environment where human movement becomes an interface.
+This is not simply hand tracking.
 
-## Watch the Project
+It is an exploration of how humans can communicate with intelligent systems through natural movement.
+
+## PROJECT DEMONSTRATION
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=6DZNtQNQqWQ">
-    <img src="https://img.youtube.com/vi/6DZNtQNQqWQ/maxresdefault.jpg" width="85%" alt="NEUROHAND Project Demonstration" />
+    <img src="https://img.youtube.com/vi/6DZNtQNQqWQ/maxresdefault.jpg" width="90%" alt="NEUROHAND — Full Project Demonstration" />
   </a>
   <br />
-  <strong>▶ Watch NEUROHAND in Action</strong>
+  <strong>▶ WATCH NEUROHAND IN ACTION</strong>
   <br />
-  <a href="https://www.youtube.com/watch?v=6DZNtQNQqWQ">Full Project Demonstration on YouTube</a>
+  <sub>Full demonstration of the interactive studio, real-time tracking, gesture learning, recognition, and 3D interaction.</sub>
 </p>
 
-## Visual Experience
+---
 
-The application combines a cinematic introduction with an interactive technical studio.
+## THE EXPERIENCE
 
-<p align="center">
-  <img src="./assets/gifs/01-cinematic-intro.gif" width="90%" alt="NEUROHAND cinematic introduction" />
-  <br />
-  <em>Cinematic introduction and transition into the studio.</em>
-</p>
+### 01 — Cinematic Introduction
 
-<p align="center">
-  <img src="./assets/gifs/02-live-tracking.gif" width="90%" alt="Real-time hand tracking" />
-  <br />
-  <em>Real-time computer vision and 3D hand articulation.</em>
-</p>
+A cinematic product introduction establishes the visual identity of NEUROHAND.
 
-<p align="center">
-  <img src="./assets/gifs/03-gesture-learning.gif" width="90%" alt="Custom gesture capture and learning" />
-  <br />
-  <em>Capture, name, save, and teach custom gestures.</em>
-</p>
+A graphite mechanical hand emerges from darkness through controlled studio lighting, camera choreography, and individual finger articulation.
 
-<p align="center">
-  <img src="./assets/gifs/04-gesture-recognition.gif" width="90%" alt="Live gesture recognition" />
-  <br />
-  <em>Live gesture recognition and matching.</em>
-</p>
+The cinematic hand transitions into the live procedural 3D hand rig, creating a continuous experience from introduction to interaction.
 
-<p align="center">
-  <img src="./assets/gifs/05-gesture-sandbox.gif" width="90%" alt="Gesture-controlled 3D sandbox" />
-  <br />
-  <em>Interact with a virtual environment using natural hand movements.</em>
-</p>
+### 02 — Real-Time Computer Vision
 
-## Core Features
+Powered by MediaPipe Tasks Vision, NEUROHAND tracks 21 hand landmarks and translates spatial relationships into meaningful articulation data.
 
-### 01. Real-Time Computer Vision
+Key capabilities:
 
-Powered by MediaPipe Tasks Vision and HandLandmarker.
-
-- Detection of 21 hand landmarks.
-- VIDEO-mode inference.
-- Support for two detected hands.
-- Real-time joint-angle extraction.
-- Finger abduction and thumb opposition estimation.
+- Real-time webcam tracking.
+- Two-hand detection.
+- Joint-angle estimation.
+- Finger abduction and thumb opposition.
 - Palm orientation and wrist rotation.
-- Exponential smoothing for stable movement.
-- Tracking confidence, inference latency, and FPS monitoring.
-- Automatic selection of the most confident hand when two hands are visible.
+- Tracking confidence and inference latency.
+- Exponential smoothing and tracking-loss handling.
+- Automatic selection of the most confident detected hand.
 
-The computer vision runtime and model are hosted locally within the application.
+### 03 — Procedural 3D Articulation
 
-### 02. Procedural 3D Articulated Hand
+A fully procedural articulated hand built with Three.js.
 
-A fully procedural hand model built with Three.js.
+The model contains five independently articulated digits, hierarchical joint structures, wrist orientation controls, and detailed mechanical geometry.
 
-No external 3D hand model is required.
+The visual construction includes:
 
-Features include:
-
-- Five articulated digits.
-- Anatomical joint hierarchy.
-- MCP, PIP, and DIP articulation.
-- Thumb opposition and independent articulation.
+- MCP, PIP, and DIP joint articulation.
+- Thumb opposition and independent movement.
 - Wrist pitch, yaw, and roll.
-- Tapered phalanges and mechanical joint details.
-- Graphite materials and physically based rendering.
-- Dynamic lighting and studio environment.
+- Tapered phalanges.
+- Machined mechanical joint rings.
+- Thenar and hypothenar anatomical pads.
+- Metacarpal ridges and dorsal volume.
+- Graphite physically based materials.
+- Runtime-generated studio environment.
 
-The 3D hand responds to the movements detected by the webcam.
+The result is a 3D hand that responds to the user's actual movements.
 
-### 03. Capture Your Own Gestures
+### 04 — Capture. Name. Teach.
 
-The signature feature of NEUROHAND.
+The signature feature of NEUROHAND is its personalized gesture-learning workflow.
 
-Users can create their own gesture vocabulary:
+Users can:
 
-1. Perform a hand gesture.
+1. Perform a natural hand gesture.
 2. Capture the movement.
 3. Validate the recording.
-4. Give the gesture a name and description.
-5. Save it to the personal gesture library.
-6. Test it in real time.
+4. Assign a name and description.
+5. Save it to their personal gesture library.
+6. Test the gesture through live recognition.
 
-The recorder distinguishes between static poses and dynamic movements.
+The recording engine distinguishes between static poses and dynamic movements, evaluates recording quality, and rejects unusable captures with specific feedback.
 
-Unusable recordings are rejected with specific validation feedback.
+Each gesture stores its landmark sequences, normalized features, palm orientation, sample count, duration, creation date, and quality score.
 
-Each saved gesture includes:
+Additional recordings under an existing gesture name can improve recognition robustness.
 
-- Gesture name and description.
-- Raw landmark sequences.
-- Normalized joint-angle features.
-- Palm orientation.
-- Static or dynamic classification.
-- Number of samples.
-- Recording duration.
-- Creation timestamp.
-- Quality score.
+### 05 — Gesture Recognition Engine
 
-Additional recordings under an existing gesture name improve its recognition robustness.
-
-### 04. Real Gesture Recognition Algorithms
-
-NEUROHAND does not rely on hardcoded gesture labels or a predefined neural classifier.
-
-It uses an instance-based recognition pipeline.
+NEUROHAND uses mathematical instance-based recognition rather than hardcoded gesture labels.
 
 **Static Gesture Recognition**
 
@@ -158,49 +122,42 @@ It uses an instance-based recognition pipeline.
 - A 20-dimensional feature vector.
 - Adaptive tolerance based on intra-class variation.
 - Soft-min aggregation of the three closest samples.
-- Similarity scoring using an exponential distance function.
+- Exponential similarity scoring.
 
 **Dynamic Gesture Recognition**
 
-Dynamic gestures are represented as time sequences.
-
-The recognition pipeline uses:
+Dynamic movements are represented as sequences and compared using:
 
 - Fixed-length sequence resampling.
 - Dynamic Time Warping (DTW).
 - Sakoe–Chiba alignment constraints.
-- Temporal matching for movements performed at different speeds.
+- Temporal matching across different movement speeds.
 
 **Recognition Stability**
 
-A gesture is only accepted when:
+The recognition engine applies similarity thresholds, runner-up margin comparison, and five-frame stability gating before reporting a gesture.
 
-- Its similarity exceeds the configured threshold.
-- It sufficiently outperforms the runner-up.
-- The result remains stable for five consecutive frames.
+Static recognition is damped during active movement to reduce false positives.
 
-Static recognition is also damped during active hand movement to reduce false positives.
+### 06 — Personal Gesture Library
 
-### 05. Personal Gesture Library
+A dedicated environment for managing custom gestures.
 
-A dedicated workspace for managing recorded gestures.
+- Gesture search and filtering.
+- Sorting by newest, name, or sample count.
+- Static and dynamic categories.
+- Real skeleton thumbnails generated from recorded poses.
+- Sample counts and quality indicators.
+- Test, rename, and delete operations.
+- Persistent local storage using IndexedDB.
 
-- Search and filtering.
-- Sort by newest, name, or sample count.
-- Static and dynamic gesture categories.
-- Real skeleton thumbnails generated from captured poses.
-- Quality indicators and sample counts.
-- Test, rename, and delete actions.
-- Persistent storage using IndexedDB.
-- In-memory fallback when IndexedDB is unavailable.
+Four built-in example gestures are generated through the same feature extraction and recognition pipeline.
 
-Four built-in examples are generated through the same recognition pipeline and can be deleted.
+### 07 — Gesture-Controlled 3D Sandbox
 
-### 06. Gesture-Controlled 3D Sandbox
+An additional interactive environment demonstrates how hand movements can become virtual controls.
 
-An additional interactive environment where hand movements become virtual controls.
-
-| Gesture / Movement | Interaction |
+| Natural movement | Virtual interaction |
 |---|---|
 | Pinch | Grab an object |
 | Move hand | Carry an object |
@@ -208,243 +165,132 @@ An additional interactive environment where hand movements become virtual contro
 | Open palm | Release an object |
 | Make a fist | Trigger a pulse |
 
-The environment contains five metallic objects in a dark 3D studio.
-
-A visual cursor follows the pinch point, while a HUD communicates the interaction state.
-
-### 07. Premium Interface & Experience
-
-The application is designed as a complete interactive studio.
-
-**Left Panel**
-- Live camera preview.
-- Hand skeleton overlay.
-- Articulation readouts.
-- Tracking and calibration information.
-
-**Central Workspace**
-- Interactive 3D articulated hand.
-- Four camera presets.
-- Blueprint measurements.
-- Grid and axis gizmo.
-- Floating controls.
-
-**Right Panel**
-- Gesture library.
-- Selected gesture information.
-- Recognition and sample data.
-
-**Performance Monitor**
-- Source status.
-- FPS.
-- Detection confidence.
-- Inference latency.
-- Recording status.
-- Calibration state.
-- Gesture count.
-
-Keyboard shortcuts:
-
-| Shortcut | Action |
-|---|---|
-| `1–4` | Camera views |
-| `R` | Reset camera |
-| `G` | Toggle grid |
-| `A` | Toggle annotations |
-| `C` | Capture gesture |
-| `T` | Test selected gesture |
-| `M` | Switch interaction mode |
-| `H` | Help |
-| `Esc` | Close / skip intro |
+Five metallic objects occupy a dedicated 3D studio environment, with a pinch-following cursor and visual interaction feedback.
 
 ---
 
-## Technical Architecture
+## ENGINEERING ARCHITECTURE
 
-NEUROHAND separates computer vision, mathematical processing, recognition, rendering, and interface state.
+NEUROHAND is designed around separated computational layers for perception, mathematical processing, recognition, 3D articulation, storage, and interface presentation.
+
+### System Overview
 
 ```mermaid
 flowchart TD
-    A[Webcam Input] --> B[MediaPipe HandLandmarker]
-    B --> C[21 Hand Landmarks]
-    C --> D[Feature Extraction]
-    C --> E[Pose Estimation]
-    D --> F[Recognition Engine]
-    E --> G[3D Hand Rig]
-    F --> H[Gesture Library]
-    H --> I[IndexedDB Storage]
-    F --> J[Live Recognition]
-    J --> K[Studio Interface]
-    G --> K
-    C --> L[Interaction Engine]
-    L --> M[3D Sandbox]
+    A["Human Hand Movement"] --> B["Webcam / Input Source"]
+    B --> C["MediaPipe HandLandmarker"]
+    C --> D["21 Hand Landmarks"]
+
+    D --> E["Feature Extraction"]
+    D --> F["Pose Estimation"]
+    D --> G["Interaction Signals"]
+
+    E --> H["Recognition Engine"]
+    H --> I["Static Recognition"]
+    H --> J["Dynamic Recognition / DTW"]
+
+    I --> K["Recognition Gating"]
+    J --> K
+    K --> L["Recognized Gesture"]
+
+    F --> M["Procedural 3D Hand Rig"]
+    G --> N["Gesture Sandbox"]
+
+    L --> O["Interactive Studio"]
+    M --> O
+    N --> O
+
+    H <--> P["Personal Gesture Library"]
+    P <--> Q["IndexedDB"]
 ```
 
 ### Recognition Pipeline
 
 ```mermaid
 flowchart TD
-    A[Hand Landmark Frames] --> B[Aspect Ratio Correction]
-    B --> C[Feature Extraction]
-    C --> D{Gesture Type}
-    D -->|Static| E[Weighted Nearest Neighbour]
-    D -->|Dynamic| F[Sequence Resampling]
-    F --> G[Dynamic Time Warping]
-    E --> H[Similarity Scoring]
+    A["21 Landmark Coordinates"] --> B["Aspect-Ratio Correction"]
+    B --> C["Feature Extraction"]
+    C --> D{"Gesture Classification"}
+
+    D -->|Static| E["Weighted Nearest Neighbour"]
+    D -->|Dynamic| F["Sequence Resampling"]
+
+    F --> G["Dynamic Time Warping"]
+    E --> H["Similarity Scoring"]
     G --> H
-    H --> I[Threshold and Margin Gating]
-    I --> J[5-Frame Stability Check]
-    J --> K[Recognized Gesture]
+
+    H --> I["Threshold and Margin Checks"]
+    I --> J["Five Consecutive Frames"]
+    J --> K["Recognized Gesture"]
 ```
 
-### Project Structure
+### Engineering Principles
 
-```text
-NEUROHAND/
-│
-├── public/
-│   ├── models/
-│   │   └── hand_landmarker.task
-│   │
-│   ├── mediapipe/
-│   │   └── wasm/
-│   │
-│   └── brand/
-│       └── key-visual.jpg
-│
-├── assets/
-│   └── gifs/
-│       ├── 01-cinematic-intro.gif
-│       ├── 02-live-tracking.gif
-│       ├── 03-gesture-learning.gif
-│       ├── 04-gesture-recognition.gif
-│       └── 05-gesture-sandbox.gif
-│
-├── src/
-│   ├── core/
-│   │   ├── types.ts
-│   │   ├── math.ts
-│   │   ├── features.ts
-│   │   ├── pose.ts
-│   │   ├── handModel.ts
-│   │   ├── recognition.ts
-│   │   ├── interaction.ts
-│   │   ├── storage.ts
-│   │   └── examples.ts
-│   │
-│   ├── tracking/
-│   │   ├── engine.ts
-│   │   └── recorder.ts
-│   │
-│   ├── three/
-│   │   ├── handRig.ts
-│   │   ├── StudioScene.tsx
-│   │   ├── ObjectScene.tsx
-│   │   └── env.ts
-│   │
-│   ├── state/
-│   │   ├── store.ts
-│   │   └── channels.ts
-│   │
-│   ├── studio/
-│   ├── screens/
-│   └── ui/
-│
-├── scripts/
-│   ├── selftest
-│   ├── flow.mjs
-│   ├── camera-test.mjs
-│   ├── responsive.mjs
-│   └── intro-flow.mjs
-│
-├── neo01.jpg
-├── package.json
-└── README.md
-```
+**Separation of Concerns**
 
-## Technology Stack
+Tracking, mathematical processing, recognition, storage, rendering, and interface state are separated into dedicated architectural layers.
 
-| Technology | Purpose |
+**High-Frequency Data Channels**
+
+Landmarks, pose, features, interaction signals, and recognition results travel through dedicated channels rather than triggering continuous React component updates.
+
+Interface-level values are published at approximately 9 Hz, reducing unnecessary rendering overhead while the camera pipeline operates at a higher frequency.
+
+**Procedural Generation**
+
+The articulated hand is constructed programmatically, avoiding dependency on an externally loaded hand model.
+
+**Persistent Local Data**
+
+Gesture recordings and preferences are stored locally in the browser, without requiring a remote account or backend service.
+
+---
+
+## TECHNOLOGY STACK
+
+| Technology | Role |
 |---|---|
 | TypeScript | Application logic and type safety |
-| React | Interface and component architecture |
-| Three.js | 3D rendering |
-| MediaPipe Tasks Vision | Hand landmark detection |
-| WebAssembly | Local computer vision runtime |
+| React | Interactive studio interface |
+| Three.js | 3D rendering and articulation |
+| MediaPipe Tasks Vision | Real-time hand tracking |
+| WebAssembly | Local vision runtime |
 | IndexedDB | Persistent gesture storage |
-| LocalStorage | User preferences |
-| Web Audio API | Cinematic sound design |
+| LocalStorage | Application preferences |
+| Web Audio API | Cinematic audio |
 | Playwright | Browser-level verification |
 
-## Getting Started
+---
 
-### Requirements
+## PRIVACY-FIRST ARCHITECTURE
 
-- Node.js and npm.
-- A modern browser with WebGL support.
-- Webcam access for real tracking.
-- A secure browser context: `localhost` or HTTPS.
+NEUROHAND follows a local-first design philosophy.
 
-### Installation
+**No backend. No login. No cloud.**
 
-Clone the repository:
+- Webcam frames are processed locally.
+- MediaPipe model and WASM assets are served by the application itself.
+- Captured gestures are stored in browser IndexedDB.
+- No external AI API is required for recognition.
+- Camera footage is not uploaded to a remote server.
 
-```bash
-git clone YOUR_REPOSITORY_URL
-cd NEUROHAND
-```
+The camera requires explicit browser permission and a secure context such as localhost or HTTPS.
 
-Install dependencies:
+---
 
-```bash
-npm install
-```
+## VERIFICATION & ENGINEERING VALIDATION
 
-Start the development server:
+The implementation includes a dedicated verification suite covering mathematical correctness, recognition behaviour, persistence, and browser-level workflows.
 
-```bash
-npm run dev
-```
-
-Open:
-
-```text
-http://localhost:5173
-```
-
-### Production Build
-
-```bash
-npm run build
-```
-
-The production bundle is generated inside:
-
-```text
-dist/
-```
-
-### Run Self-Tests
-
-```bash
-npm run selftest
-```
-
-The headless test suite executes 31 assertions covering the mathematical and recognition pipeline.
-
-## Verification & Testing
-
-NEUROHAND includes dedicated verification workflows.
-
-| Test | What it verifies |
+| Verification | Coverage |
 |---|---|
-| `npm run selftest` | 31 assertions across the core algorithms |
-| `flow.mjs` | Capture, save, learn, test, rename, reload and delete |
-| `camera-test.mjs` | Webcam access, model loading and inference |
-| `responsive.mjs` | Layout at 1280, 1024 and 430 px |
-| `intro-flow.mjs` | Cinematic introduction and sandbox rendering |
+| Core self-test | 31 assertions |
+| Gesture workflow | Capture, save, learn, test, rename, reload, delete |
+| Camera verification | Camera permission, model loading, inference |
+| Responsive verification | 1280, 1024, and 430 px |
+| Introduction verification | Intro transition and sandbox rendering |
 
-The mathematical tests cover:
+Core mathematical validation includes:
 
 - Kinematic calculations.
 - Feature extraction.
@@ -453,78 +299,60 @@ The mathematical tests cover:
 - Flexion conventions.
 - DTW alignment.
 - Recognition ranking.
-- Threshold behaviour.
+- Similarity thresholds.
 - Static and dynamic recognition round trips.
 
-## Privacy-First by Design
+---
 
-Privacy is a core architectural decision.
+## TECHNICAL TRANSPARENCY
 
-NEUROHAND is designed to work without a backend, user accounts, or cloud processing.
+NEUROHAND is an experimental personal gesture-learning system, not a general-purpose neural gesture classifier.
 
-- Webcam processing runs locally.
-- MediaPipe WASM and model files are served by the application.
-- Captured gesture data is stored locally in IndexedDB.
-- No external AI API is required for gesture recognition.
-- No camera feed is uploaded to a remote server.
+The simulated source is explicitly labelled. It drives the 3D hand through the same kinematic model used to generate the built-in examples and exercises the same recognition pipeline, but does not validate real webcam tracking.
 
-**Your hand movements stay on your machine.**
+Recognition thresholds are tuned and adaptive rather than trained through a neural network.
 
-## Honest Technical Limitations
+When two hands are detected, only the most confident hand drives the model.
 
-NEUROHAND is an experimental personal gesture-learning studio, not a general-purpose neural gesture classifier.
+Performance depends on browser capabilities, hardware acceleration, and the MediaPipe WASM execution environment.
 
-A few important distinctions:
+These limitations are part of the engineering scope and are intentionally documented.
 
-- The simulated source is clearly labelled and is not real camera tracking.
-- Simulated gestures use the same recognition pipeline but do not validate webcam detection.
-- Recognition thresholds are tuned and adaptive, not learned through neural network training.
-- The instance-based approach is designed for personal gesture vocabularies rather than unrestricted gesture classification.
-- Only the most confident detected hand drives the model when two hands are visible.
-- Performance depends on browser capabilities and available hardware acceleration.
+---
 
-Repeated captures can improve robustness, but recognition quality still depends on recording consistency.
+## PART OF THE SE7ENX / NEXORA ECOSYSTEM
 
-## Design Philosophy
+NEUROHAND is developed as part of the broader **SE7ENX / NEXORA** vision: exploring intelligent interaction between people, digital systems, and physical environments.
 
-Three principles guide NEUROHAND:
+The long-term direction is to extend gesture-based interaction beyond a standalone visual experience.
 
-**1. Personalization**
+Potential integration areas include:
 
-People should be able to create their own gesture vocabulary rather than being restricted to predefined commands.
+- Smart building interfaces.
+- KNX automation.
+- Home Assistant.
+- Robotics and physical device control.
+- Assistive interaction systems.
+- Voice-assisted gesture commands.
+- Multimodal human-machine interfaces.
 
-**2. Local Intelligence**
+The connection between NEUROHAND and NEXORA represents a broader engineering direction: making intelligent environments more natural to interact with.
 
-Interactive computer vision should be possible without sending personal camera data to external servers.
+*These integrations are future development directions, not currently claimed features.*
 
-**3. Human-Centred Interaction**
+---
 
-Technology should adapt to natural human movements, not force people to adapt to complicated interfaces.
+## THE VISION
 
-## Future Directions
+The next generation of interfaces should not be limited to traditional input devices or predefined commands.
 
-Potential areas for further development:
+Natural movement, personal gestures, computer vision, and intelligent environments offer another way to interact with technology.
 
-- Gesture-to-voice commands.
-- Multilingual gesture naming and voice feedback.
-- Integration with smart building systems.
-- KNX and Home Assistant control.
-- Robotics and physical device interaction.
-- Multi-user gesture profiles.
-- Expanded gesture vocabulary and recognition benchmarking.
-- Accessibility-focused interaction experiences.
+NEUROHAND is a step toward exploring that possibility.
 
-These are future development directions, not claims about currently implemented features.
+Your hand is not just an input device.
 
-## The Vision
-
-NEUROHAND is an exploration of how computer vision and human movement can redefine interaction with digital and physical environments.
-
-From controlling virtual objects to potentially interacting with smart buildings, assistive technologies, and robotics, the possibilities extend far beyond a traditional computer interface.
-
-The hand is not just an input device.
-
-It can become a language.
+**It can become your language.**
 
 ---
 
@@ -535,5 +363,9 @@ It can become a language.
   <br /><br />
   CAPTURE IT. TEACH IT. CONTROL IT.
   <br /><br />
-  <a href="https://www.youtube.com/watch?v=6DZNtQNQqWQ">WATCH THE PROJECT DEMO</a>
+  <a href="https://www.youtube.com/watch?v=6DZNtQNQqWQ">
+    WATCH THE PROJECT DEMONSTRATION
+  </a>
+  <br /><br />
+  <sub>AN ENGINEERING PROJECT WITHIN THE SE7ENX / NEXORA ECOSYSTEM.</sub>
 </p>
